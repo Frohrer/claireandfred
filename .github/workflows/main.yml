@@ -41,5 +41,6 @@ jobs:
             **/.git*/**
             **/node_modules/**
             .git-ftp.log
+            .*
             README.md
             LICENSE
