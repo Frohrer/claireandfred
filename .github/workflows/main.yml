@@ -38,3 +38,10 @@ jobs:
           local-dir: # optional, default is ./
           # Passes through options into git-ftp
           git-ftp-args: # optional
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            .git-ftp.log
+            README.md
+            LICENSE
